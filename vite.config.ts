@@ -35,6 +35,7 @@ const __dirname = dirname(__filename);
  
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/CI/', // repo name with trailing slash
   resolve: {
     alias: {
       '@': resolve(__dirname, './src')
